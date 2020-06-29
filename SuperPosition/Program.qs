@@ -10,9 +10,8 @@
         using(qs = Qubit[2]){
             X(qs[0]);
             X(qs[1]);
-            Reset(qs[0]);
-            Reset(qs[1]);
+            ResetAll(qs);
         }
     }
 }
-
+6
