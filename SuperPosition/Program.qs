@@ -13,5 +13,13 @@
             ResetAll(qs);
         }
     }
+
+    operation PrepareState2() : Unit {
+        using(qs = Qubit[2]){
+            X(qs[1]);
+            H(qs[1]);
+            ResetAll(qs);
+        }
+    }
 }
 6
