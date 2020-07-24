@@ -27,6 +27,7 @@
             H(qs[0]);
             X(qs[1]);
             H(qs[1]);
+            ResetAll(qs);
         }
     }
 
@@ -36,6 +37,7 @@
             S(qs[0]);
             H(qs[1]);
             T(qs[1]);
+            ResetAll(qs);
         }
     }
 }
